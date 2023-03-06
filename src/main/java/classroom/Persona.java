@@ -37,6 +37,10 @@ public class Persona {
     	this(1,nombre);
     }
     
+    public Persona(){
+    	this(0,"");
+	}
+    
     public long getCedula() {
         return cedula;
     }
@@ -49,7 +53,5 @@ public class Persona {
         this.nombre = nombre;
     }
     
-    public Persona(){
-    	this(0,"");
-	}
+    
 }
